@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunedin Dairy</title>
+    <link rel="icon" href="http://redsox.uoa.auckland.ac.nz/ds/logo-192x192.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    </div>
+    <img id="logo" src="http://redsox.uoa.auckland.ac.nz/ds/logo.svg">
+        <div class="navigation-menu">
+            <button id="homeTab" onclick="showHomeTab()">Home</button>
+            <button id="productsTab" onclick="showProductsTab()">Products</button>
+            <button id="locationTab" onclick="showLocationTab()">Location</button>
+            <button id="newsTab" onclick="showNewsTab()">News</button>
+            <button id="guestTab" onclick="showGuestTab()">Guest Book</button>
+            <button id="registerTab" onclick="showRegisterTab()">Register</button>
+            <button id="loginTab" onclick="showSignInTab()">Login</button>
+        </div>
+        <div style="text-align: right">
+            <p id="signinStatus">You are not logged in.</p>
+            <div style="text-align: right">
+            <button id="signOut" onclick="signOut()" style="visibility: visible">Sign In</button>
+        </div>
+    </div>
+
+    <!--home-->
+    <div id="home">
+        <h1>Dunedin Dairy</h1>
+        <hr/>
+        <p>
+            Moo! Welcome to Dunedin's online haven of fresh dairy products only available in New Zealand. We offer high 
+            quality service and products, please take your leisure browsing our online store. 
+            Our deliveries are <b>contactless only</b> to keep you Kiwis and our staff safe from COVID-19.
+        </p>
+        <div>
+        <img 
+    class="cuteCow" 
+    src="https://i.imgur.com/9BQG495.png"/>
+    </div>
+    </div>
+
+    <!--products-->
+    <div id="products">
+            <h1>Products</h1>
+            <hr>
+            <div>
+                <input type="text" class="searchBar" id="userInput" onkeyup="searchItem()" placeholder="Search for a product...">
+            </div>
+            <div id="hoverPopup"></div>
+            <br>
+            <table id="itemsTable"></table>
+    </div>
+
+    <!--location-->
+    <div id="location">
+            <h1>Location</h1>
+            <hr>
+            <img
+            class="map"
+            src="http://redsox.uoa.auckland.ac.nz/ds/map.png"
+            alt="a cow">
+            <br>
+            <div class="locationBox">
+                <div id="locationContent"></div>
+            </div>
+    </div>
+
+    <!--news-->
+    <div id="news">
+            <h1>News</h1>
+            <hr>
+            <table id="newsTable"></table>
+    </div>
+    
+    <!--guest book-->
+    <div id="guest" class="guest-book">
+            <h1>Guest Book</h1>
+            <hr>
+            <h2>Please sign our guest book.</h2>
+            <form class="guest-form">
+                <input type="text" class="messageBox" id="userMessage" placeholder="Leave a message..."><br>
+                <input type="text" class="nameBox" id="userName" placeholder="Name... (optional)"><br>
+                <input type="button" id="commentButton" onclick="postComment()" value="POST"></input>
+            </form>
+            <br>
+            <iframe id="commentSection"></iframe>
+    </div>
+
+    <!--register-->
+    <div id="register">
+            <h1>Register your account</h1>
+            <hr>
+                <div class="formContent">
+                    <p><label for="email">*Email:</label></p>
+                    <input type="text" placeholder="Enter your Address" id="email"/>
+                    <p><label for="username">*Username:</label></p>
+                    <input type="text" placeholder="Enter your Username" id="username"/>
+                    <p><label for="password">*Password:</label></p>
+                    <input type="password" placeholder="Enter your Password" id="password"/>
+                    <div><p>
+                            <button onclick="register()" id="registerButton">
+                                <p>Register</p>
+                            </button>
+                    </p></div>
+                    <div id="registerMessage"></div>
+                </div>
+    </div>
+
+    <!--login-->
+    <div id="signin">
+        <h1>Account Sign In</h1>
+        <hr>
+        <div class="signinContent">
+            <p id="name"><label for="username">Username:</label></p>
+            <input type="text" placeholder="Enter your Username" id="loginUsername"/>
+            <p id="pswd"><label for="password">Password:</label></p>
+            <input type="password" placeholder="Enter your Password" id="loginPassword"/>
+            <div><p>
+                <button onclick="signIn();">
+                    <p>Sign In</p>
+                </button>
+            </p></div>
+            <div id="signinMessage"></div>
+        </div>
+    </div>
+</body>
+<script defer src="app.js"></script>
+</html>

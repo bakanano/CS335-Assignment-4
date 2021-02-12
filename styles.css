@@ -1,0 +1,150 @@
+body {
+    background-color: #EAEAEA;
+    font-family: "Verdana", "Geneva", "sans-serif";
+}
+
+#navigationBg {
+    background-color: pink;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    filter: invert(25%);
+}
+
+#itemsTable {
+    text-align: center;
+}
+
+#name {
+    position: relative;
+    left: -25px;
+}
+
+#pswd {
+    position: relative;
+    left: -30px;
+}
+
+.navigation-menu {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navigation-menu button {
+    border: none;
+    background-color: transparent;
+    font-size: 26px;
+    height: auto;
+}
+
+.searchBar {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+}
+
+input.searchBar {
+    background-color: #D3D3D3;
+}
+
+.guest-book {
+    align-items: center;
+}
+.guest-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.messageBox {
+    height: 150px;
+    width: 900px;
+    margin: 16px;
+}
+
+.nameBox {
+    width: 30%;
+    margin: 16px;
+}
+
+.cuteCow, .map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.map {
+    filter: invert(25%);
+}
+
+.itemImg, .newsImg {
+    width: 250px;
+    max-width: 250px;
+    height: 100%;
+}
+
+.locationBox {
+    text-align: center;
+}
+.locationContent {
+    background-color: transparent;
+    color: black;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+}
+
+.newsContent a:hover {
+    cursor: pointer;
+}
+
+.newsContent h3 {
+    font-size: 4px;
+}
+
+.formContent, .signinContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buyBtn {
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100vh;
+    background-color: #eeeeee;
+    border-color: transparent;
+    overflow: hidden;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+}
+
+hr {
+    height: 7px;
+    background-color: black;    
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
