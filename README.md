@@ -9,7 +9,7 @@ This assignment tasked us with building a web application consuming the mockup e
 * User can dynamically search for a product meaning that the search will filter as the user types e.g "cheese"
 
 # Location
-* Displays a map of Dunedin Dairy Shop and address details
+* Displays a map of Dunedin Dairy Shop and address and contact details
 * Allows users to download the shop's vCard to add to their devices
 
 
