@@ -12,4 +12,5 @@ This assignment tasked us with building a web application consuming the mockup e
 * Displays a map of Dunedin Dairy Shop and address and contact details
 * Allows users to download the shop's vCard to add to their devices
 
-
+# News
+* Displays table of news articles on Dairy products with links to them and the date they were published
