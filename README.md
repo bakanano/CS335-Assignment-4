@@ -1,5 +1,5 @@
 # CS335-Assignment1
-This assignment tasked us with building a web application consuming the mockup endpoint for Dunedin Dairy.
+This assignment tasked us with building a web application consuming the mockup endpoint for Dunedin Dairy. We were not allowed to use any libraries or frameworks. It is meant to be in pure HTML, CSS, JS.
 
 # Home
 * Displays the home page of the website with a short blurb about Dunedin Dairy Shop.
@@ -17,3 +17,6 @@ This assignment tasked us with building a web application consuming the mockup e
 
 # Guest Book
 * Shows a section where users can leave comments or provide feedback to the Dunedin Dairy Shop
+
+# What did I learn?
+* In this assignment I learnt what an API is and how I can manipulate the endpoints offered to us to use and display information about the Dunedin Dairy Shop.
