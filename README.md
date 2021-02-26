@@ -8,3 +8,8 @@ This assignment tasked us with building a web application consuming the mockup e
 * Displays all the items available for purchasing in Dunedin Dairy Shop. 
 * User can dynamically search for a product meaning that the search will filter as the user types e.g "cheese"
 
+# Location
+* Displays a map of Dunedin Dairy Shop and address details
+* Allows users to download the shop's vCard to add to their devices
+
+
