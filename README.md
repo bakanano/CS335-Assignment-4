@@ -14,3 +14,6 @@ This assignment tasked us with building a web application consuming the mockup e
 
 # News
 * Displays table of news articles on Dairy products with links to them and the date they were published
+
+#Guest Book
+* Shows a section where users can leave comments or provide feedback to the Dunedin Dairy Shop
