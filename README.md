@@ -1,4 +1,4 @@
-# CS335-Assignment1
+# CS335-Assignment1 - University API Endpoint Offline
 This assignment tasked us with building a web application consuming the mockup endpoint for Dunedin Dairy. We were not allowed to use any libraries or frameworks. It is meant to be in pure HTML, CSS, JS.
 
 # Home
