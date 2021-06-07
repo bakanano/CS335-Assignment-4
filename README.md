@@ -3,7 +3,7 @@ This assignment tasked us with building a web application consuming the mockup e
 
 # Home
 * Displays the home page of the website with a short blurb about Dunedin Dairy Shop.
-[](https://ibb.co/MNc7RyW)
+![](https://ibb.co/MNc7RyW)
 
 # Products
 * Displays all the items available for purchasing in Dunedin Dairy Shop. 
