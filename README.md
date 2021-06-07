@@ -20,4 +20,6 @@ This assignment tasked us with building a web application consuming the mockup e
 * Shows a section where users can leave comments or provide feedback to the Dunedin Dairy Shop
 
 # What did I learn?
-* In this assignment I learnt what an API is and how I can manipulate the endpoints offered to us to use and display information about the Dunedin Dairy Shop.
+* Learnt how to design and develop a simple web application
+* Be able to use APIs and consume their data
+* An understanding of HTML, CSS and JavaScript
